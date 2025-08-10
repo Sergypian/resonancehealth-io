@@ -1,3 +1,8 @@
 export default function Page() {
-  return (<div className='prose-ink'><h1>About Resonance Health</h1><p>Tees Valley–based; practical, evidence-led tools for arthritis and chronic pain.</p></div>);
+  return (
+    <article className="prose prose-invert max-w-none">
+      <h1>About</h1>
+      <p>Resonance Health is based in the Tees Valley, UK.</p>
+    </article>
+  )
 }

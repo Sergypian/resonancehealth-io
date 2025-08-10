@@ -1,3 +1,8 @@
 export default function Page() {
-  return (<div className='prose-ink'><h1>FitPath</h1><p>Details about Glow, adaptive plans, tracking, and NHS-friendly posture.</p></div>);
+  return (
+    <article className="prose prose-invert max-w-none">
+      <h1>FitPath</h1>
+      <p>FitPath is a gentle AI companion that helps you keep moving and share progress with clinicians.</p>
+    </article>
+  )
 }

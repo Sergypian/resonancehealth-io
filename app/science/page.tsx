@@ -1,3 +1,8 @@
 export default function Page() {
-  return (<div className='prose-ink'><h1>Science & Evidence</h1><p>Short reading list with Harvard-style references.</p></div>);
+  return (
+    <article className="prose prose-invert max-w-none">
+      <h1>Science</h1>
+      <p>Built on evidence-based pillars of movement, recovery, and behavioural adherence.</p>
+    </article>
+  )
 }

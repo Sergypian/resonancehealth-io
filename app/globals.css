@@ -2,25 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { --radius: 12px; }
 html, body { height: 100%; }
+body { @apply bg-slate-950 text-slate-100; }
 
-/* Light/Dark base */
-body { @apply bg-white text-ink dark:bg-slate-950 dark:text-slate-100; }
+@layer components {
+  .btn { @apply inline-flex items-center justify-center rounded-xl bg-emerald-600 px-4 py-2 font-medium text-white shadow transition hover:-translate-y-0.5 hover:bg-emerald-700; }
+  .btn-secondary { @apply inline-flex items-center justify-center rounded-xl border border-slate-700 px-4 py-2 font-medium text-slate-100 transition hover:-translate-y-0.5 hover:bg-slate-900; }
+  .badge { @apply inline-block rounded-full bg-rose-500/20 px-3 py-1 text-sm text-rose-300; }
+  .card { @apply rounded-2xl border border-slate-800 bg-slate-900 p-6; }
+  .pill { @apply inline-flex items-center gap-2 rounded-full border border-slate-700/70 bg-slate-900/60 px-3 py-1 text-xs text-slate-300; }
+  .section { @apply mx-auto max-w-6xl px-4; }
+  .kicker { @apply text-sm uppercase tracking-wide text-ink-faint; }
+}
 
-a { @apply text-brand hover:text-brand-dark underline dark:text-brand-light dark:hover:text-brand; }
-.btn { @apply inline-flex items-center justify-center rounded-xl bg-brand px-4 py-2 font-medium text-white hover:bg-brand-dark transition shadow; }
-.btn-secondary { @apply inline-flex items-center justify-center rounded-xl border border-ink-soft px-4 py-2 font-medium text-ink hover:bg-gray-50 transition dark:border-slate-700 dark:text-slate-100 dark:hover:bg-slate-900; }
-.badge { @apply inline-block rounded-full bg-accent px-3 py-1 text-sm text-white; }
-.container { @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8; }
-.card { @apply rounded-2xl border border-gray-200 p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900; }
-.prose-ink { @apply prose max-w-none prose-slate dark:prose-invert; }
-
-/* Simple phone mockup */
-.phone { @apply relative mx-auto h-[520px] w-[260px] rounded-[40px] border border-gray-300 bg-white shadow-xl dark:border-slate-700 dark:bg-slate-900; box-shadow: inset 0 0 0 8px rgba(0,0,0,0.05); }
-.phone:before { content: ''; @apply absolute left-1/2 top-2 h-7 w-36 -translate-x-1/2 rounded-full bg-gray-200 dark:bg-slate-700; }
-.screen { @apply absolute inset-6 rounded-2xl bg-gradient-to-b from-white to-slate-50 p-4 dark:from-slate-900 dark:to-slate-950; }
-.screen-card { @apply rounded-xl border border-gray-200 bg-white p-3 text-sm dark:border-slate-800 dark:bg-slate-950; }
-
-/* Cookie banner */
-.cc-banner { @apply fixed bottom-4 left-1/2 z-50 w-[95%] max-w-3xl -translate-x-1/2 rounded-2xl border border-gray-200 bg-white p-4 shadow-lg dark:border-slate-800 dark:bg-slate-900; }
+a { @apply underline-offset-4 hover:underline; }

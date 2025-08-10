@@ -1,3 +1,8 @@
 export default function Page() {
-  return (<div className='prose-ink'><h1>For Investors</h1><p>Traction, product, and use of funds.</p></div>);
+  return (
+    <article className="prose prose-invert max-w-none">
+      <h1>Investors</h1>
+      <p>Early partner opportunities available—UK pilots and NHS-aligned pathways.</p>
+    </article>
+  )
 }
