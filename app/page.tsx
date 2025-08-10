@@ -34,7 +34,7 @@ export default function Page(){
           <div className="mx-auto max-w-xs">
             <img src="/glow.png" alt="Glow" className="mx-auto h-36 w-36 rounded-full ring-2 ring-emerald-400/40" />
             <div className="mt-4 space-y-2 text-sm">
-              <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">Glow: “Hello, great to see you againg Mrs Smith! How are you feeling today?”</div>               
+              <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">Glow: “Hello, great to see you again Mrs Smith! How are you feeling today?”</div>               
               <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">You: “Hi Glow, great to see you too! I feel a little sore on my back and shoulder.”</div>
               <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">Glow: “I’m sorry to hear you’re feeling sore, Mrs. Smith. Let’s take a closer look together. I recall last time you mentioned some stiffness in your neck — has that improved?”</div>               
               <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">Pain • Mood • Activity — tracked</div>
