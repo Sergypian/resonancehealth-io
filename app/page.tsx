@@ -13,7 +13,7 @@ export default function Page(){
         <div className="space-y-6">
           <span className="badge">Now inviting early partners</span>
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-            FitPath — AI-guided arthritis care you can start today.
+            FitPath® — AI-guided arthritis care you can start today.
           </h1>
           <p className="text-lg text-ink-soft">
             Daily 30-second check-ins, adaptive movement guidance, and a one-page clinician summary — guided by Glow, your AI companion.
@@ -83,7 +83,7 @@ export default function Page(){
         <ul className="list-disc pl-6 text-ink-soft space-y-2">
           <li>Exercise and education are core for osteoarthritis management (NICE NG226).</li>
           <li>Digital self-management can support pain, function and self-efficacy in some groups.</li>
-          <li>Real-world adherence is the hard part — FitPath is designed for small, sustainable wins.</li>
+          <li>Real-world adherence is the hard part — FitPath® is designed for small, sustainable wins.</li>
         </ul>
         <div className="rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900/40">
           <h3 className="font-medium">Selected sources (clickable)</h3>

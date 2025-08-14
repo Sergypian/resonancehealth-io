@@ -4,7 +4,7 @@ import Link from 'next/link'
 import ThemeToggle from './shared/ThemeToggle'
 
 export const metadata: Metadata = {
-  title: 'Resonance Health — FitPath',
+  title: 'Resonance Health — FitPath®',
   description: 'Investor-ready long scroll with Glow assistant.'
 }
 
