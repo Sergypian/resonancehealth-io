@@ -134,7 +134,7 @@ export default function Page(){
         <h2 className="text-2xl font-semibold">Be an early partner</h2>
         <p className="mx-auto max-w-xl text-ink-soft">Join pilots, evaluate outcomes, and help shape what people use every day.</p>
         <div className="mt-4"><SignupForm /></div>
-        <p className="mt-2 text-xs text-ink-faint">We’ll only email about FitPath pilots, releases, and research updates.</p>
+        <p className="mt-2 text-xs text-ink-faint">We’ll only email about FitPath® pilots, releases, and research updates.</p>
       </section>
     </>
   )
