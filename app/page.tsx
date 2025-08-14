@@ -29,15 +29,25 @@ export default function Page(){
             <li>• In discussion with Versus Arthritis (exploration)</li>
           </ul>
         </div>
-        <div className="relative overflow-hidden rounded-2xl border border-slate-800 p-6">
+
+        {/* Right-hand hero media/card */}
+        <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-950/20">
           <div className="pointer-events-none absolute inset-0 -z-10 bg-hero-gradient" />
           <div className="mx-auto max-w-xs">
             <img src="/glow.png" alt="Glow" className="mx-auto h-36 w-36 rounded-full ring-2 ring-emerald-400/40" />
             <div className="mt-4 space-y-2 text-sm">
-              <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">Glow: “Hello, great to see you again Mrs Smith! How are you feeling today?”</div>               
-              <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">You: “Hi Glow, great to see you too! I feel a little sore on my back and shoulder.”</div>
-              <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">Glow: “I’m sorry to hear you’re feeling sore, Mrs. Smith. Let’s take a closer look together. I recall last time you mentioned some stiffness in your neck — has that improved?”</div>               
-              <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">Pain • Mood • Activity — tracked</div>
+              <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+                Glow: “Hello, great to see you again Mrs Smith! How are you feeling today?”
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+                You: “Hi Glow, great to see you too! I feel a little sore on my back and shoulder.”
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+                Glow: “I’m sorry to hear you’re feeling sore, Mrs. Smith. Let’s take a closer look together. I recall last time you mentioned some stiffness in your neck — has that improved?”
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+                Pain • Mood • Activity — tracked
+              </div>
             </div>
           </div>
         </div>
@@ -50,7 +60,7 @@ export default function Page(){
         <p className="text-ink-soft max-w-3xl">Guidelines emphasise exercise, education and weight management as first-line care, yet delivery is inconsistent and adherence is hard — especially with long gaps between appointments.</p>
         <ul className="grid gap-3 md:grid-cols-3 text-sm text-ink-soft">
           <li className="card">Millions live with arthritis in the UK; MSK conditions are a leading cause of disability.</li>
-          <li className="card">Exercise and supported self‑management can improve pain and function in many cohorts.</li>
+          <li className="card">Exercise and supported self-management can improve pain and function in many cohorts.</li>
           <li className="card">Clinicians need simple ways to keep patients engaged between visits.</li>
         </ul>
       </section>
@@ -58,11 +68,11 @@ export default function Page(){
       {/* SOLUTION */}
       <section id="solution" className="section space-y-4 py-16">
         <p className="kicker">Solution</p>
-        <h2 className="text-2xl font-semibold">FitPath: brief daily check‑ins → adaptive plan → shareable progress</h2>
+        <h2 className="text-2xl font-semibold">FitPath: brief daily check-ins → adaptive plan → shareable progress</h2>
         <ol className="mt-2 grid gap-4 md:grid-cols-3">
-          <li className="card"><h4 className="font-medium">1) 30‑second check‑ins</h4><p className="text-ink-soft mt-1">Log pain, stiffness, mood, and movement.</p></li>
+          <li className="card"><h4 className="font-medium">1) 30-second check-ins</h4><p className="text-ink-soft mt-1">Log pain, stiffness, mood, and movement.</p></li>
           <li className="card"><h4 className="font-medium">2) Adaptive guidance</h4><p className="text-ink-soft mt-1">Gentle, graded mobility & recovery matched to the day.</p></li>
-          <li className="card"><h4 className="font-medium">3) One‑page summary</h4><p className="text-ink-soft mt-1">Simple trends for patients; clear snapshot for clinicians.</p></li>
+          <li className="card"><h4 className="font-medium">3) One-page summary</h4><p className="text-ink-soft mt-1">Simple trends for patients; clear snapshot for clinicians.</p></li>
         </ol>
       </section>
 
@@ -72,10 +82,10 @@ export default function Page(){
         <h2 className="text-2xl font-semibold">Grounded in guidance and emerging digital health evidence</h2>
         <ul className="list-disc pl-6 text-ink-soft space-y-2">
           <li>Exercise and education are core for osteoarthritis management (NICE NG226).</li>
-          <li>Digital self‑management can support pain, function and self‑efficacy in some groups.</li>
-          <li>Real‑world adherence is the hard part — FitPath is designed for small, sustainable wins.</li>
+          <li>Digital self-management can support pain, function and self-efficacy in some groups.</li>
+          <li>Real-world adherence is the hard part — FitPath is designed for small, sustainable wins.</li>
         </ul>
-        <div className="rounded-2xl border border-slate-800 p-4">
+        <div className="rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900/40">
           <h3 className="font-medium">Selected sources (clickable)</h3>
           <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm">
             <li><a target="_blank" href="https://www.nice.org.uk/guidance/ng226">NICE NG226 — Osteoarthritis in over 16s</a></li>
@@ -87,9 +97,9 @@ export default function Page(){
             <li><a target="_blank" href="https://www.thelancet.com/clinical/diseases/osteoarthritis">The Lancet — Osteoarthritis Series</a></li>
             <li><a target="_blank" href="https://www.cochranelibrary.com/">Cochrane Library — Exercise and OA (systematic reviews)</a></li>
             <li><a target="_blank" href="https://www.nature.com/subjects/rheumatoid-arthritis">Nature — Arthritis research (selection)</a></li>
-            <li><a target="_blank" href="https://jamanetwork.com/searchresults?q=osteoarthritis%20exercise">JAMA — Osteoarthritis & Exercise (search)</a></li>
-            <li><a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/?term=osteoarthritis+digital+self-management+randomized">PubMed — Digital self‑management RCTs</a></li>
-            <li><a target="_blank" href="https://www.nhsconfed.org/">NHS Confederation — MSK & service pressures (briefings)</a></li>
+            <li><a target="_blank" href="https://jamanetwork.com/searchresults?q=osteoarthritis%20exercise">JAMA — Osteoarthritis &amp; Exercise (search)</a></li>
+            <li><a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/?term=osteoarthritis+digital+self-management+randomized">PubMed — Digital self-management RCTs</a></li>
+            <li><a target="_blank" href="https://www.nhsconfed.org/">NHS Confederation — MSK &amp; service pressures (briefings)</a></li>
           </ol>
         </div>
       </section>
@@ -99,10 +109,10 @@ export default function Page(){
         <p className="kicker">Partners</p>
         <h2 className="text-2xl font-semibold">Local ecosystem support and discussions</h2>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-          <div className="flex items-center justify-center rounded-xl border border-slate-800 p-4 text-sm text-ink-soft">Teesside Univ. FUEL</div>
-          <div className="flex items-center justify-center rounded-xl border border-slate-800 p-4 text-sm text-ink-soft">Versus Arthritis (in discussion)</div>
-          <div className="flex items-center justify-center rounded-xl border border-slate-800 p-4 text-sm text-ink-soft">NHS‑aligned Pathways</div>
-          <div className="flex items-center justify-center rounded-xl border border-slate-800 p-4 text-sm text-ink-soft">Tees Valley Partners</div>
+          <div className="flex items-center justify-center rounded-xl border border-slate-200 p-4 text-sm text-ink-soft dark:border-slate-800">Teesside Univ. FUEL</div>
+          <div className="flex items-center justify-center rounded-xl border border-slate-200 p-4 text-sm text-ink-soft dark:border-slate-800">Versus Arthritis (in discussion)</div>
+          <div className="flex items-center justify-center rounded-xl border border-slate-200 p-4 text-sm text-ink-soft dark:border-slate-800">NHS-aligned Pathways</div>
+          <div className="flex items-center justify-center rounded-xl border border-slate-200 p-4 text-sm text-ink-soft dark:border-slate-800">Tees Valley Partners</div>
         </div>
         <p className="text-xs text-ink-faint">Names shown for context only; not endorsements.</p>
       </section>
@@ -112,7 +122,7 @@ export default function Page(){
         <p className="kicker">Roadmap</p>
         <h2 className="text-2xl font-semibold">Next 6–12 months</h2>
         <ul className="grid gap-3 md:grid-cols-2 text-ink-soft">
-          <li className="card">Clinician portal (read‑only summaries, export)</li>
+          <li className="card">Clinician portal (read-only summaries, export)</li>
           <li className="card">Outcomes instrumentation (minutes moved, flare frequency, adherence)</li>
           <li className="card">Pilot evaluations and commissioning conversations</li>
           <li className="card">Occupational health / insurer pilots</li>
