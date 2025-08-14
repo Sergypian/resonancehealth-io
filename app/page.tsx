@@ -68,7 +68,7 @@ export default function Page(){
       {/* SOLUTION */}
       <section id="solution" className="section space-y-4 py-16">
         <p className="kicker">Solution</p>
-        <h2 className="text-2xl font-semibold">FitPath: brief daily check-ins → adaptive plan → shareable progress</h2>
+        <h2 className="text-2xl font-semibold">FitPath® → adaptive plan → shareable progress</h2>
         <ol className="mt-2 grid gap-4 md:grid-cols-3">
           <li className="card"><h4 className="font-medium">1) 30-second check-ins</h4><p className="text-ink-soft mt-1">Log pain, stiffness, mood, and movement.</p></li>
           <li className="card"><h4 className="font-medium">2) Adaptive guidance</h4><p className="text-ink-soft mt-1">Gentle, graded mobility & recovery matched to the day.</p></li>
