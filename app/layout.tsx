@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import ThemeToggle from './shared/ThemeToggle'
+import { Analytics } from '@vercel/analytics/react'   // ✅ added
 
 export const metadata: Metadata = {
   title: 'Resonance Health — FitPath®',
@@ -69,6 +70,9 @@ export default function RootLayout({
             <p className="opacity-70">Tees Valley, UK • GDPR-aligned</p>
           </div>
         </footer>
+
+        {/* ✅ Analytics goes INSIDE body */}
+        <Analytics />
       </body>
     </html>
   )
